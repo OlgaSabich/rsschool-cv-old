@@ -108,7 +108,7 @@ main{
             height: 16%;
             background-color: #fbece1;
         }
-        .about_me {
+        .summary {
             display: flex;
             align-items: center;
             width: 100%;
@@ -121,20 +121,20 @@ main{
             height: 16%;
             /* background-color: rgb(16, 229, 27); */
         }
-        .eng_lvl {
+        .languages {
             display: flex;
             align-items: center;
             width: 100%;
             height: 16%;
         }
-        .my_projects {
+        .projects {
             display: flex;
             align-items: center;
             width: 100%;
             height: 16%;
             /* background-color: rgb(16, 229, 27);*/
         }
-        .code_example {
+        .code {
             display: flex;
             align-items: center;
             width: 100%;
