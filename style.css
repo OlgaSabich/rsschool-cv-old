@@ -119,7 +119,6 @@ main{
             align-items: center;
             width: 100%;
             height: 16%;
-            /* background-color: rgb(16, 229, 27); */
         }
         .languages {
             display: flex;
@@ -128,7 +127,7 @@ main{
             height: 16%;       
         }
                 .lang_icon {
-                    list-style-image: url ("assets/img/square.png");
+                    list-style-image: url ("assets/img/square.png"); /*Проверить работу иконок*/
                 }
 
         .projects {
@@ -136,7 +135,6 @@ main{
             align-items: center;
             width: 100%;
             height: 16%;
-            /* background-color: rgb(16, 229, 27);*/
         }
         .code {
             display: flex;
@@ -155,7 +153,6 @@ main{
     align-items: center;
     flex-wrap: wrap;
     height: 30%;
-    /* background-color: brown; */
 }
 .round {
     width: 200px;
@@ -172,7 +169,6 @@ main{
     align-items: center;
     flex-direction: column;
     height: 35%;
-    /* background-color: rgb(165, 42, 132); */
 }
 .skills {
     display: flex;
@@ -181,7 +177,6 @@ main{
     align-items: center;
     flex-direction: column;
     height: 35%;
-    /* background-color: rgb(16, 229, 27); */
 }
 
 
