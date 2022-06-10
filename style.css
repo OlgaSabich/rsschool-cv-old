@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "WorkSans";
+    font-style: normal;
+    font-weight: 500;
+     src:   local("WorkSans"),
+            url("assets/fonts/WorkSans.ttf"), 
+            format(ttf);
+   }
+
+   body {
+    font-family: 'WorkSans', sans-serif;
+    margin:0;
+  }
+
+
+   header {
+    display: flex;
+    color: #fff5ee;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(24, 36, 32);
+    border: 10px solid rgb(24, 36, 32);
+  }
+    h1 {
+        margin: 0; 
+    }
+    h3 {
+        margin: 0; 
+    }
+
+    a {
+    color: #fff5ee;
+    font-weight: 100;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #ffd7bb;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.left_block{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 15px;
+}
+        .first {
+            display: flex;
+            width: 100%;
+            height: 4%;
+        }
+        .second {
+            display: flex;
+            width: 100%;
+            height: 16%;
+            background-color: #fbece1;
+        }
+        .third {
+            display: flex;
+            width: 100%;
+            height: 80%;
+        }
+
+.left_main_block {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    align-items: center;
+    flex: 4 100px;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(76, 142, 120);
+    }
+
+.right_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 6 400px; 
+}
+        .top {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 4%;
+        }
+        .name {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 16%;
+            background-color: #fbece1;
+        }
+        .about_me {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 16%;
+        }
+        .education {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 16%;
+            /* background-color: rgb(16, 229, 27); */
+        }
+        .eng_lvl {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 16%;
+        }
+        .my_projects {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 16%;
+            /* background-color: rgb(16, 229, 27);*/
+        }
+        .code_example {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 16%;
+        }
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30%;
+    /* background-color: brown; */
+}
+.round {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    clip-path: circle(50%);
+    object-fit: cover;
+}
+
+.contacts {
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    height: 35%;
+    /* background-color: rgb(165, 42, 132); */
+}
+.skills {
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    height: 35%;
+    /* background-color: rgb(16, 229, 27); */
+}
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80px;
+    color: #ffd7bb;
+    background-color: rgb(24, 36, 32);
+    border: 10px solid rgb(24, 36, 32);
+  }
