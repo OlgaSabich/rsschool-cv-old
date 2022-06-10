@@ -123,10 +123,14 @@ main{
         }
         .languages {
             display: flex;
-            align-items: center;
+            flex-direction: column;
             width: 100%;
-            height: 16%;
+            height: 16%;       
         }
+                .lang_icon {
+                    list-style-image: url ("assets/img/square.png");
+                }
+
         .projects {
             display: flex;
             align-items: center;
