@@ -1,10 +1,10 @@
 @font-face {
     font-family: "WorkSans";
     font-style: normal;
-    font-weight: 500;
      src:   local("WorkSans"),
-            url("assets/fonts/WorkSans.ttf"), 
+            url("/assets/fonts/WorkSans.ttf"), 
             format(ttf);
+            color: rgb(24, 36, 32);
    }
 
    body {
@@ -15,7 +15,7 @@
 
    header {
     display: flex;
-    color: #fff5ee;
+    color: #fbece1;
     justify-content: space-between;
     align-items: center;
     height: 80px;
@@ -30,22 +30,23 @@
     }
 
     a {
-    color: #fff5ee;
+    color: #fbece1;
     font-weight: 100;
-    text-decoration: none;
   }
 
   a:visited {
-    color: #ffd7bb;
+    color: #fbece1;
     font-weight: normal;
-    text-decoration: none;
+  }
+
+  .colour1 {
+    color: #fbece1;
   }
 
 main{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    /* height: 1500px; */
+    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -74,12 +75,11 @@ main{
 
 .left_main_block {
     display: flex;
-    justify-content: center;
-    padding: 15px;
-    align-items: center;
-    flex: 4 100px;
     flex-direction: column;
-    height: 100%;
+    justify-content: center;
+    padding: 5%;
+    align-items: center;
+    flex: 3 100px;
     background-color: rgb(76, 142, 120);
     }
 
@@ -109,10 +109,10 @@ main{
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%;
         }
             .summary1 {
                 text-align: justify;
+                padding: 5%;
             }
 
         .education {
@@ -152,10 +152,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding-top: 15px;
     padding-bottom: 15px;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     flex: 1 0 250px;
 }
@@ -170,10 +168,9 @@ main{
 .contacts {
     display: flex;
     width: 100%;
-    padding-top: 40px;
     align-items: center;
     flex-direction: column;
-    flex: 1 0 200px;
+    flex: 0 1 10px;
 }
 .skills {
     display: flex;
@@ -181,7 +178,7 @@ main{
     padding-top: 40px;
     align-items: center;
     flex-direction: column;
-    flex: 1 0 200px;
+    flex: 1 0 250px;
 }
 
 
