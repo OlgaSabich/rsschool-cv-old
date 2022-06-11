@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/img/favicon.ico">
 </head>
-<body bgcolor="#fff5ee">
+<body">
     <header>
         <div>
-        <img src="assets/img/logo_rs_text.svg" alt="logo" height="70px" class="logo">
+        <img src="assets/img/logo_rs_text.svg" alt="logo" height="70" class="logo">
         </div>
         <nav>
             <ul>
@@ -32,9 +32,9 @@
         </div>
         <div class="left_main_block">
             <div class="photo">
-            <img src="assets/img/my_photo.jpg" alt="my photo" width="90px" class="round">   
+            <img src="assets/img/my_photo.jpg" alt="my photo" width="90" class="round">   
             </div>
-            <class class="contacts" id="contacts">
+            <div class="contacts" id="contacts">
             <h2>Contacts</h2>
                 <ul>
                     <li>Minsk, Belarus</li>
@@ -44,7 +44,7 @@
                     <li>Telegram: sabichol</li>
                     <li>Discord: chmonya#3261</li>
                 </ul>
-            </class> 
+            </div> 
             <div class="skills" id="skills">
             <h2>Skills</h2>
                 <ul>
@@ -59,12 +59,12 @@
         </div>
         <div class="right_block">
             <div class="top"></div>
-            <section class="name"><h1>Volha Sabich</h1><i><h3>Frontend developer</h3></i></section>
+            <section class="name"><h1>Volha Sabich</h1><h3><i>Frontend developer</i></h3></section>
             <section class="summary"><h4>About me</h4></section>
             <section class="education"><h4>Education</h4></section>
             <section class="languages">
                 <ul class="lang_icon">  <!--Проверить работу иконок-->
-                    <h4>Languages</h4>
+                    Languages
                     <li>Russian - C2 - Proficiency</li>
                     <li>Belarusian - C1 - Advanced</li>
                     <li>Ukrainian - B1 - Intermediate</li>
@@ -72,12 +72,24 @@
                 </ul>
             </section>
             <section class="projects"><h4>My projects</h4></section>
-            <section class="code"><h4>Example</h4></section>
+            <pre class="code"><h4>Code example</h4>
+                <code>
+function truncate(str, maxlength) {
+let newStr;
+if (str.length > maxlength) {
+newStr = str.slice(0, maxlength - 3) + "...";
+return newStr;
+}
+return str;
+}
+}
+                </code>
+            </pre>
         </div>
     </main>
     <footer>
         <div><a href="https://github.com/OlgaSabich/rsschool-cv" target="_blank">Github</a></div>
-        <div><img src="assets/img/logo.svg" alt="logo2" width="90px" class="logo2" height="40px"></div>
+        <div><img src="assets/img/logo.svg" alt="logo2" width="90" class="logo2" height="40"></div>
         <div>Ⓒ 2022</div>
     </footer>
 </body>
