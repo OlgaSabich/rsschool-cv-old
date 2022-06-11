@@ -36,7 +36,6 @@
             <h2>Contacts</h2>
                 <ul>
                     <li>Minsk, Belarus</li>
-                    <li>Phone number: <span class="colour1">+375 25 787-67-99</span></li>
                     <li>Email: <a href="mailto:olgasabich@mail.ru">olgasabich@mail.ru</a></li>
                     <li>Github: <a href="https://github.com/OlgaSabich" target="_blank">OlgaSabich</a></li>
                     <li>Telegram: <span class="colour1">sabichol</span></li>
@@ -59,8 +58,7 @@
             <div class="top"></div>
             <section class="name"><h1>Volha Sabich</h1><h3><i>Frontend developer</i></h3></section>
             <section class="summary">
-                <h4>About me</h4>
-                <p class="summary1">Hello. I am a novice frontend developer. At the moment I work in a large company that is engaged in retail trade as a marketer. I dream of changing my job to one that I like more than market</p>
+                <h4>About me</h4>Hello. I am a novice frontend developer. At the moment I work in a large company that is engaged in retail trade as a marketer. I dream of changing my job to one that I like more than market
             </section>
             <section class="education">
                 <h4>Education</h4>
@@ -80,17 +78,14 @@
                 <h4>My project</h4>
                 <a href="https://github.com/OlgaSabich/rsschool-cv/tree/rsschool-cv-html" target="_blank">Go to my Github page</a>
             </section>
-            <h4 id="code">Code example</h4>
             <pre class="code">
+                <h4 id="code">Code example</h4>
                 <code>
-function truncate(str, maxlength) {
-let newStr;
-if (str.length > maxlength) {
-newStr = str.slice(0, maxlength - 3) + "...";
-return newStr;
-}
-return str;
-}
+function bmi(weight, height) {
+    const bmi = weight / (height * height);    
+                        
+    return bmi <= 18.5 ? 'Underweight' : bmi <= 25 ?    
+    'Normal' : bmi <= 30 ? 'Overweight' : 'Obese';    
 }
                 </code>
             </pre>
