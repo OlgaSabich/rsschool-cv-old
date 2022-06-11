@@ -15,7 +15,7 @@
 
    header {
     display: flex;
-    color: #fbece1;
+    color: #f7caa9;
     justify-content: space-between;
     align-items: center;
     height: 80px;
@@ -30,17 +30,17 @@
     }
 
     a {
-    color: #fbece1;
+    color: #f7caa9;
     font-weight: 100;
   }
 
   a:visited {
-    color: #fbece1;
+    color: #f7caa9;
     font-weight: normal;
   }
 
   .colour1 {
-    color: #fbece1;
+    color: #f7caa9;
   }
 
 main{
