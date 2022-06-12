@@ -159,6 +159,16 @@ main{
             padding-bottom: 35px;
             color: rgb(24, 36, 32);
         }
+
+        .nav {
+            display: flex;
+        }
+        .nav li {
+            margin-right: 10px;
+        }
+
+
+
 .photo {
     display: flex;
     flex-wrap: wrap;
