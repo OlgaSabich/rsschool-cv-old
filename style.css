@@ -221,3 +221,21 @@ footer {
     background-color: rgb(24, 36, 32);
     border: 3px solid rgb(24, 36, 32); 
   }
+
+
+  .test1 {
+    animation-name: identifier;
+    animation-duration: 0.0005ks;
+  }
+  @keyframes identifier {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
