@@ -77,11 +77,10 @@
             <pre class="code">
                 <h4 id="code">Code example</h4>
                 <code>
-function bmi(weight, height) {
-    const bmi = weight / (height * height);    
-                        
-    return bmi <= 18.5 ? 'Underweight' : bmi <= 25 ?    
-    'Normal' : bmi <= 30 ? 'Overweight' : 'Obese';    
+function factorial(n) {
+    if (n ❮ 0) return null;
+    if (n === 0) return 1;
+    return n * factorial(n-1);
 }
                 </code>
             </pre>
