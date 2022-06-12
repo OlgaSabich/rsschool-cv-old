@@ -61,7 +61,7 @@ main{
 .left_main_block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     padding: 2%;
     align-items: center;
     flex: 3 200px;
@@ -99,6 +99,8 @@ main{
             align-items: center;
             padding-left: 10%;
             padding-right: 10%;
+            padding-top: 35px;
+            padding-bottom: 35px;
             text-align: justify;
         }
 
@@ -108,20 +110,25 @@ main{
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            padding-top: 35px;
+            padding-bottom: 35px;
             width: 100%;
         }
+
+        ul {
+            list-style-type: none;
+        }
+
         .languages {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;   
+            padding-top: 35px;
+            padding-bottom: 35px;
         }
-                .lang {
-                    list-style-type: none;
-                }
 
                 .lang1 {
-                    list-style-type: none;
                     text-align: right;
                 }
 
@@ -135,6 +142,8 @@ main{
             justify-content: center;
             align-items: center;
             width: 100%;
+            padding-top: 35px;
+            padding-bottom: 35px;
         }
         .code {
             display: flex;
@@ -146,7 +155,9 @@ main{
             font-family: 'Barlow', sans-serif;
             font-size: large;
             font-size: 1.1rem;
-    color: rgb(24, 36, 32);
+            padding-top: 35px;
+            padding-bottom: 35px;
+            color: rgb(24, 36, 32);
         }
 .photo {
     display: flex;
@@ -155,7 +166,7 @@ main{
     padding-bottom: 15px;
     justify-content: center;
     flex-wrap: wrap;
-    flex: 1 0 250px;
+    flex: 1 0 200px;
 }
 .round {
     width: 200px;
@@ -170,7 +181,8 @@ main{
     width: 100%;
     align-items: center;
     flex-direction: column;
-    flex: 0 1 10px;
+    justify-content: center;
+    flex: 0 1 200px;
 }
 .skills {
     display: flex;
@@ -178,10 +190,9 @@ main{
     padding-top: 40px;
     align-items: center;
     flex-direction: column;
-    flex: 1 0 250px;
+    justify-content: center;
+    flex: 1 0 400px;
 }
-
-
 
 footer {
     display: flex;
