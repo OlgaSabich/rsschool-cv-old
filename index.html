@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div>
+            <a href="https://rs.school/" target="_blank"><img src="assets/img/logo_rs_text.png" alt="logo" height="70" class="logo"></a>
+        </div>
+        <nav>
+            <ul class="nav">
+            <li> <a href="#skills">Skills</a></li>
+            <li> <a href="#languages">Languages</a></li>
+            <li> <a href="#projects">My project</a></li>
+            <li> <a href="#code">Code example</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left_main_block">
+            <div class="photo">
+            <img src="assets/img/my_photo.jpg" alt="my photo" width="90" class="round">
+            </div>
+            <div class="contacts">
+            <h2>Contacts</h2>
+                <ul>
+                    <li>□ Minsk, Belarus</li>
+                    <li>□ Email: <a href="mailto:olgasabich@mail.ru">olgasabich@mail.ru</a></li>
+                    <li>□ Github: <a href="https://github.com/OlgaSabich" target="_blank">OlgaSabich</a></li>
+                    <li>□ Telegram: <span class="color1">sabichol</span></li>
+                    <li>□ Discord: <span class="color1">chmonya#3261</span></li>
+                </ul>
+            </div>
+            <div class="skills" id="skills">
+            <h2>Skills</h2>
+                <ul>
+                <li>□ Web-development: <span class="color1">HTML5, CSS3</span></li>
+                <li>□ Version control: <span class="color1">GIT, Github</span></li>
+                <li>□ Office software: <span class="color1">MS Visio, MS Excel</span></li>
+                <li>□ Engineering: <span class="color1">AutoCAD</span></li>
+                <li>□ Graphics: <span class="color1">Adobe Photoshop</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right_block">
+            <div class="top"></div>
+            <section class="name"><h1>Volha Sabich</h1><h3><i>Frontend developer</i></h3></section>
+            <section class="summary">
+                <h4>About me</h4>Hello. I am a novice frontend developer. At the moment I work in a large company that is engaged in retail trade as a marketer. I dream of changing my job to one that I like more than market
+            </section>
+            <section class="education">
+                <h4>Education</h4>
+                Belarusian National Technical University
+                <a href="https://bntu.by/" target="_blank"><img src="assets/img/Logo_BNTU.png" alt="logo BNTU" height="70" class="logoBNTU"></a>
+            </section>
+            <div class="languages" id="languages">
+                <h4>Languages</h4>
+                <div class="lang_block">
+                    <p class="lang1">Russian-<br>Belarusian-<br>Ukrainian-<br>English-</p>
+                    <p class="lang">C2-<br>C1-<br>B1-<br>B1-</p>
+                    <p class="lang">Proficiency<br>Advanced<br>Intermediate<br>Intermediate</p>
+                </div>
+            </div>
+            <section class="projects" id="projects">
+                <h4>My project</h4>
+                <a href="https://github.com/OlgaSabich/rsschool-cv/tree/rsschool-cv-html" target="_blank">Go to my Github page</a>
+            </section>
+            <h4>Code example</h4>
+            <pre class="code" id="code">
+                <code>
+function factorial(n) {
+    if (n ❮ 0) return null;
+    if (n === 0) return 1;
+    return n * factorial(n-1);
+}
+                </code>
+            </pre>
+        </div>
+    </main>
+    <footer>
+        <div><a href="https://github.com/OlgaSabich" target="_blank"><img src="assets/img/github.png" alt="logogit" class="logogit" height="55"></a></div>
+        <div class="color1">Ⓒ 2022</div>
+        <div><a href="https://rs.school/" target="_blank"><img src="assets/img/logo.svg" alt="logo2" class="logo2" height="55"></a></div>
+    </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
