@@ -1,2 +1,2 @@
-https://OlgaSabich.github.io/rsschool-cv/cv
-https://OlgaSabich.github.io/rsschool-cv/
+https://OlgaSabich.github.io/rsschool-cv-old/cv
+https://OlgaSabich.github.io/rsschool-cv-old/
